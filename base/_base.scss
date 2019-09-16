@@ -1,0 +1,26 @@
+/**
+  @author - Shan Dhiviyarajan
+  @date - <project date>
+  @email - prashasoft@gmail.com
+*/
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}

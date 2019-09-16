@@ -1,0 +1,28 @@
+@charset 'UTF-8';
+
+// Configuration
+@import
+  '/variables',
+  '/functions',
+  '/mixins';
+
+//Vendors
+@import
+  'vendors/normalize';
+
+//Base
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+//Components
+@import
+  'components/button';
+
+//Page-specific styles
+@import
+  'pages/home';
+
+
